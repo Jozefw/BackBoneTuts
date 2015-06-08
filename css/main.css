@@ -97,8 +97,14 @@ textarea {
 
 
 
-
-
+main {
+    position: absolute;
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: grey;
+    top: 100px;
+}
 
 
 

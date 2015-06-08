@@ -23,10 +23,10 @@ var CurrentTimeView = Backbone.View.extend({
 		Dispatcher.on(newDataFlag, this.render);
 	},
 
-		render: function(currentTime){
+	render: function(currentTime){
 			// set the DOMS elements text content to the clocks current time
 			this.el.textContent = currentTime;
 		}
-});
+	});
 
 
